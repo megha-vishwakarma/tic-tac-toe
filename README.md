@@ -12,17 +12,13 @@ In this project we propose to build a system using modern NLP techniques such as
 
 
 
-# Nutshell
-[![CodeFactor](https://www.codefactor.io/repository/github/krishnansg/nutshell/badge)](https://www.codefactor.io/repository/github/krishnansg/nutshell) 
-[![Downloads](https://pepy.tech/badge/pynutshell)](https://pepy.tech/project/pynutshell)
-[![Downloads](https://pepy.tech/badge/pynutshell/month)](https://pepy.tech/project/pynutshell)
-[![PyPI version](https://badge.fury.io/py/pynutshell.svg)](https://pypi.org/project/pynutshell)
+# Quick Reader
 
 A simple to use yet robust python library containing tools to perform:
 
-<img src="https://user-images.githubusercontent.com/43802499/99897377-02a9f300-2cbf-11eb-8830-d9bc8d2aa0d5.png"
+<img src="https://thumbs.dreamstime.com/b/person-reader-books-studying-preparing-exam-speed-reading-education-knowledge-concept-woman-fiction-literature-leisure-256904883.jpg"
 align="right" 
-     title="Nutshell" width="30%" height="30%">
+     title="Quick Reader" width="30%" height="30%">
 
 - Text summarization
 - Information retrieval
