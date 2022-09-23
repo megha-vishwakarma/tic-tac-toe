@@ -3,6 +3,7 @@
 # Quick Reader
 
 Don't read the  book :trollface: , just use Quick Reader   :sunglasses:
+<hr>
 
 <img src="https://thumbs.dreamstime.com/b/person-reader-books-studying-preparing-exam-speed-reading-education-knowledge-concept-woman-fiction-literature-leisure-256904883.jpg"
 align="right" 
@@ -17,7 +18,7 @@ align="right"
 
 
 
-## More about Project
+> ## More about Project
 
 Keyword extraction is an extremely interesting topic in Information Retrieval- keywords are widely acknowledged to be extremely important in the field of text retrieval, and particularly while developing large scale modern search engines that limit the size of the inverted index used by the system.
 
