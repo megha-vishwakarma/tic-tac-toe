@@ -33,11 +33,8 @@ align="right"
 
 ## How does the Quick Reader works?
 
-<img src=https://thumbs.dreamstime.com/b/contract-terms-conditions-document-paper-creative-writing-storytelling-concept-read-brief-summary-assignment-line-icon-110576128.jpg
-align="left"
-     title="ij" width="30%" height="30%">
 
-It Follows following Steps:
+It follows following Steps:
 
 1. Scan text
 2. Extract Text
@@ -46,6 +43,11 @@ It Follows following Steps:
 6. Similarity Algorithms
 7. Information Retrievers
 8. Keyword Extractors
+   <img src=https://thumbs.dreamstime.com/b/contract-terms-conditions-document-paper-creative-writing-storytelling-concept-read-brief-summary-assignment-line-icon-110576128.jpg
+align="left"
+     title="ij" width="30%" height="30%">
+     
+     <br>
 
 ### Summarization
 
