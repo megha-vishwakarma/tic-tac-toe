@@ -1,20 +1,8 @@
-# tic-tac-toe
-
-
-
-Keyword extraction is an extremely interesting topic in Information Retrieval- keywords are widely acknowledged to be extremely important in the field of text retrieval, and particularly while developing large scale modern search engines that limit the size of the inverted index used by the system.
-
-In this project we propose to build a system using modern NLP techniques such as Part of Speech Tagging, Brown Clustering and Rapid Automatic Keywords Extraction (RAKE) to use a small initial seed of keywords to generate more candidate keywords in a semi-supervised manner and expose the system as a JSON based web service.
-
-
-
-
-
 
 
 # Quick Reader
 
-A simple to use yet robust python library containing tools to perform:
+Don't read the  book just use Quick Reader 🤓
 
 <img src="https://thumbs.dreamstime.com/b/person-reader-books-studying-preparing-exam-speed-reading-education-knowledge-concept-woman-fiction-literature-leisure-256904883.jpg"
 align="right" 
@@ -29,38 +17,20 @@ align="right"
 
 
 
-## Getting Started
+## More about Project
+
+Keyword extraction is an extremely interesting topic in Information Retrieval- keywords are widely acknowledged to be extremely important in the field of text retrieval, and particularly while developing large scale modern search engines that limit the size of the inverted index used by the system.
+
+In this project we propose to build a system using modern NLP techniques such as Part of Speech Tagging, Brown Clustering and Rapid Automatic Keywords Extraction (RAKE) to use a small initial seed of keywords to generate more candidate keywords in a semi-supervised manner and expose the system as a JSON based web service.
 
 
-These instructions will get you a copy of the project and ready for use for your python projects.
+
+
 
 ### Installation
 
   #### Quick Access
-  - Download from PyPi.org
-  
-    ```bash
-    pip install pynutshell
-    ```
-  
-  #### Developer Style
-  - Requires Python version >=3.6
-
-  - Clone this repository using the command:
-
-    ```bash
-    git clone https://github.com/KrishnanSG/Nutshell.git
-    cd Nutshell
-    ```
-    
-  - Then install the library using the command:
-
-    ```
-      python setup.py install
-    ```
-
-> Note: The package is distributed as **pynutshell** due to unavailability of the name, but the package name is **nutshell** and request you not to get confused.
-
+ 
 
 ## How does the library work?
 
@@ -131,67 +101,7 @@ Checklist of features the library currently offers and plans to offer.
   - [ ] Advanced
 
 
-## Examples
 
-### Summarization
-
-A simple example on how to use the library and perform extractive text summarization from the given input text(corpus).
-
-```python
-from nutshell.algorithms.information_retrieval import ClassicalIR
-from nutshell.algorithms.ranking import TextRank
-from nutshell.algorithms.similarity import BM25Plus
-from nutshell.model import Summarizer
-from nutshell.preprocessing.cleaner import NLTKCleaner
-from nutshell.preprocessing.preprocessor import TextPreProcessor
-from nutshell.preprocessing.tokenizer import NLTKTokenizer
-from nutshell.utils import load_corpus, construct_sentences_from_ranking
-
-# Example
-corpus = load_corpus('input.txt')
-print("\n --- Original Text ---\n")
-print(corpus)
-
-preprocessor = TextPreProcessor(NLTKTokenizer(), NLTKCleaner())
-similarity_algorithm = BM25Plus()
-ranker = TextRank()
-ir = ClassicalIR()
-
-# Text Summarization
-model = Summarizer(preprocessor, similarity_algorithm, ranker, ir)
-summarised_content = model.summarise(corpus, reduction_ratio=0.70, preserve_order=True)
-
-print("\n --- Summarized Text ---\n")
-print(construct_sentences_from_ranking(summarised_content))
-
-```
-
-### Keyword Extraction
-
-A simple example on how to use the library and perform keyword extraction from the given input text(corpus).
-
-```python
-from nutshell.algorithms.information_retrieval import ClassicalIR
-from nutshell.model import KeywordExtractor
-from nutshell.preprocessing.cleaner import NLTKCleaner
-from nutshell.preprocessing.preprocessor import TextPreProcessor
-from nutshell.preprocessing.tokenizer import NLTKTokenizer
-from nutshell.utils import load_corpus
-
-corpus = load_corpus('input.txt')
-print("\n --- Original Text ---\n")
-print(corpus)
-
-# Text Keyword Extraction
-preprocessor = TextPreProcessor(NLTKTokenizer(), NLTKCleaner(skip_stemming=True))
-keyword_extractor = KeywordExtractor(preprocessor, ClassicalIR())
-keywords = keyword_extractor.extract_keywords(corpus, count=10, raw=False)
-
-
-print("\n --- Keywords ---\n")
-print(keywords)
-
-```
 
 ## Contribution
 
@@ -203,5 +113,11 @@ Contributions are always welcomed, it would be great to have people use and cont
 
 ## Authors
 
-* **Krishnan S G** - [@KrishnanSG](https://github.com/KrishnanSG)
-* **Shruthi Abirami** - [@Shruthi-22](https://github.com/shruthi-22)
+* **Andrew Chan** - [@KrishnanSG](https://github.com/andrewchancgc)
+* **Pascal Burume ** - [@Shruthi-22](https://github.com/PascalBurume)
+* * **Chin Hao Wong ** - [@Shruthi-22](https://github.com/ChinHaoX3)
+* * **Pascl urume ** - [@Shruthi-22](https://github.com/PascalBurume)
+* * **Pascal Burume ** - [@Shruthi-22](https://github.com/PascalBurume)
+* * **AnushkaBhatnagar ** - [@Shruthi-22](https://github.com/AnushkaBhatnagar)
+* * **Pascal Burume ** - [@Shruthi-22](https://github.com/PascalBurume)
+* * **Pascal Burume ** - [@Shruthi-22](https://github.com/PascalBurume)
