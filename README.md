@@ -25,22 +25,17 @@ In this project we propose to build a system using modern NLP techniques such as
 
 
 
+## How does the Quick Reader works?
 
+It Follows following Steps:
 
-### Installation
-
-  #### Quick Access
- 
-
-## How does the library work?
-
-The library has several components:
-
-1. Summarizers
-2. Rankers
-3. Similarity Algorithms
-4. Information Retrievers
-5. Keyword Extractors
+1. Scan text
+2. Extract Text
+4.  Summarizers
+5. Rankers
+6. Similarity Algorithms
+7. Information Retrievers
+8. Keyword Extractors
 
 ### Summarization
 
@@ -71,53 +66,7 @@ This technique unlike extractive is much more complex and robust in producing su
 
 Text rankers are algorithms similar to web page ranking algorithms used to rank web pages. These rankers find the importance of the sentence in the document and provide ranks to the sentence, thereby providing us with the information of how important the sentence is.
 
-### Similarity Algorithms
-
-Text similarity algorithms define the similarity between 2 documents (sentences). 
-
-A few classic algorithms for finding similarity are:
-1. Cosine Similarity
-2. Euclidean Distance
-
-> Note: word2vec is an important transformation step used to convert words into vectors to easily perform mathematical operations.
 
 
-## Features
+### Installation
 
-Checklist of features the library currently offers and plans to offer.
-
-- [x] Keyword Extraction
-- [x] Text Tokenizers 
-- [x] Text cleaners
-- [ ] Semantic decoder
-- Summarization
-  - [x]  Extractive
-  - [ ]  Abstractive
-- Text Rankers
-  - [x] Intermediate
-  - [ ] Advanced
-- Information Retrieval
-  - [x] Intermediate
-  - [ ] Advanced
-
-
-
-
-## Contribution
-
-Contributions are always welcomed, it would be great to have people use and contribute to this project to help user understand and benefit from library.
-
-### How to contribute
-- **Create an issue:** If you have a new feature in mind, feel free to open an issue and add some short description on what that feature could be.
-- **Create a PR**: If you have a bug fix, enhancement or new feature addition, create a Pull Request and the maintainers of the repo, would review and merge them.
-
-## Authors
-
-* **Andrew Chan** - [@andrewchancgc](https://github.com/andrewchancgc)
-* **Pascal Burume ** - [@PascalBurume](https://github.com/PascalBurume)
-* * **Chin Hao Wong ** - [@ChinHaoX3](https://github.com/ChinHaoX3)
-* * **Dibrin Sofor** - [@dibrinsofor](https://github.com/dibrinsofor)
-* * **Rasheed mudasiru ** - [@rasheed mudasiru](https://github.com/Taiwrash)
-* * **AnushkaBhatnagar ** - [@Anushka](https://github.com/AnushkaBhatnagar)
-* * **Megha Vishwakarma** - [@Megha](https://github.com/megha-vishwakarma)
-* * **Pascal Burume ** - [@Shruthi-22](https://github.com/PascalBurume)
