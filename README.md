@@ -2,7 +2,7 @@
 
 # Quick Reader
 
-Don't read the  book, just use Quick Reader   :sunglasses:
+Don't read the  book :trollface: , just use Quick Reader   :sunglasses:
 
 <img src="https://thumbs.dreamstime.com/b/person-reader-books-studying-preparing-exam-speed-reading-education-knowledge-concept-woman-fiction-literature-leisure-256904883.jpg"
 align="right" 
@@ -113,11 +113,11 @@ Contributions are always welcomed, it would be great to have people use and cont
 
 ## Authors
 
-* **Andrew Chan** - [@KrishnanSG](https://github.com/andrewchancgc)
-* **Pascal Burume ** - [@Shruthi-22](https://github.com/PascalBurume)
-* * **Chin Hao Wong ** - [@Shruthi-22](https://github.com/ChinHaoX3)
-* * **Pascl urume ** - [@Shruthi-22](https://github.com/PascalBurume)
-* * **Pascal Burume ** - [@Shruthi-22](https://github.com/PascalBurume)
-* * **AnushkaBhatnagar ** - [@Shruthi-22](https://github.com/AnushkaBhatnagar)
-* * **Pascal Burume ** - [@Shruthi-22](https://github.com/PascalBurume)
+* **Andrew Chan** - [@andrewchancgc](https://github.com/andrewchancgc)
+* **Pascal Burume ** - [@PascalBurume](https://github.com/PascalBurume)
+* * **Chin Hao Wong ** - [@ChinHaoX3](https://github.com/ChinHaoX3)
+* * **Dibrin Sofor** - [@dibrinsofor](https://github.com/dibrinsofor)
+* * **Rasheed mudasiru ** - [@rasheed mudasiru](https://github.com/Taiwrash)
+* * **AnushkaBhatnagar ** - [@Anushka](https://github.com/AnushkaBhatnagar)
+* * **Megha Vishwakarma** - [@Megha](https://github.com/megha-vishwakarma)
 * * **Pascal Burume ** - [@Shruthi-22](https://github.com/PascalBurume)
