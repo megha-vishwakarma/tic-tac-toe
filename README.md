@@ -2,7 +2,7 @@
 
 # Quick Reader
 
-Don't read the  book just use Quick Reader 🤓
+Don't read the  book, just use Quick Reader   :sunglasses:
 
 <img src="https://thumbs.dreamstime.com/b/person-reader-books-studying-preparing-exam-speed-reading-education-knowledge-concept-woman-fiction-literature-leisure-256904883.jpg"
 align="right" 
