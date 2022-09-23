@@ -18,7 +18,8 @@ align="right"
 
 
 <hr>
- ## More about Project
+
+## More about Project
 
 * Keyword extraction is an extremely interesting topic in Information Retrieval- keywords are widely acknowledged to be extremely important in the field of text retrieval, and particularly while developing large scale modern search engines that limit the size of the inverted index used by the system.
 
@@ -31,6 +32,10 @@ align="right"
 
 
 ## How does the Quick Reader works?
+
+<img src=https://thumbs.dreamstime.com/b/contract-terms-conditions-document-paper-creative-writing-storytelling-concept-read-brief-summary-assignment-line-icon-110576128.jpg>
+align="left"
+     title="Summarization" width="40%" height="40%">
 
 It Follows following Steps:
 
