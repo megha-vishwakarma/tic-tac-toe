@@ -3,7 +3,7 @@
 # Quick Reader
 
 Don't read the  book :trollface: , just use Quick Reader   :sunglasses:
-<hr>
+
 
 <img src="https://thumbs.dreamstime.com/b/person-reader-books-studying-preparing-exam-speed-reading-education-knowledge-concept-woman-fiction-literature-leisure-256904883.jpg"
 align="right" 
@@ -17,12 +17,16 @@ align="right"
 - and many more in progress...
 
 
+<hr>
+ ## More about Project
 
-> ## More about Project
+* Keyword extraction is an extremely interesting topic in Information Retrieval- keywords are widely acknowledged to be extremely important in the field of text retrieval, and particularly while developing large scale modern search engines that limit the size of the inverted index used by the system.
 
-Keyword extraction is an extremely interesting topic in Information Retrieval- keywords are widely acknowledged to be extremely important in the field of text retrieval, and particularly while developing large scale modern search engines that limit the size of the inverted index used by the system.
+* In this project we propose to build a system using modern NLP techniques such as Part of Speech Tagging, Brown Clustering and Rapid Automatic Keywords Extraction (RAKE) to use a small initial seed of keywords to generate more candidate keywords in a semi-supervised manner and expose the system as a JSON based web service.
 
-In this project we propose to build a system using modern NLP techniques such as Part of Speech Tagging, Brown Clustering and Rapid Automatic Keywords Extraction (RAKE) to use a small initial seed of keywords to generate more candidate keywords in a semi-supervised manner and expose the system as a JSON based web service.
+* The proposed system mainly focuses on scraping the data from image and providing the summary as well as keywords from the information extracted from  image
+
+* Quick Reade is really helpful for the visually impaired,  it will take image containing text as the input, extracts the text from the image, and converts this text to speech, it will summarize the text of the image for them.
 
 
 
