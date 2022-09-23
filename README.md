@@ -33,9 +33,9 @@ align="right"
 
 ## How does the Quick Reader works?
 
-<img src=https://thumbs.dreamstime.com/b/contract-terms-conditions-document-paper-creative-writing-storytelling-concept-read-brief-summary-assignment-line-icon-110576128.jpg>
+<img src=https://thumbs.dreamstime.com/b/contract-terms-conditions-document-paper-creative-writing-storytelling-concept-read-brief-summary-assignment-line-icon-110576128.jpg
 align="left"
-     title="Summarization" width="40%" height="40%">
+     title="ij" width="30%" height="30%">
 
 It Follows following Steps:
 
